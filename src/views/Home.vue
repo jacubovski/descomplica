@@ -1,5 +1,6 @@
 <template>
-  <div class="home">
+  <div>
+    <h1>Persons from Star Wars</h1>
     <Persons />
   </div>
 </template>

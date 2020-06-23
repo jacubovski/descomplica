@@ -1,11 +1,8 @@
 <template>
-  <div>
-    <h1>Persons from Star Wars</h1>
-    <section class="box-person">
-      <Filters />
-      <PersonItems/>
-    </section>
-  </div>
+  <section class="box-person">
+    <Filters />
+    <PersonItems/>
+  </section>
 </template>
 
 <script>

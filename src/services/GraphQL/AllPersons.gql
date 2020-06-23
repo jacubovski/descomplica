@@ -1,0 +1,7 @@
+query AllPersons ($first: Int!,$filter: String, $orderBy: PersonOrderBy) {
+  allPersons(first: $first, filter: { name_contains: $filter}, orderBy:$orderBy){
+    eyeColor
+    name
+    id
+  }
+}
